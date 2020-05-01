@@ -1,0 +1,56 @@
+{
+  "name": "@fostack/ion-viewcontrollers",
+  "version": "1.0.0",
+  "description": "View Controller Helpers",
+  "main": "./dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "ngc": "ngc",
+    "build": "rm -rf dist && npm run ngc",
+    "publishPackage": "npm run build && npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FOStack/ion-viewcontrollers.git"
+  },
+  "keywords": [
+    "ionic",
+    "view",
+    "controller",
+    "loading",
+    "toast",
+    "modal",
+    "popover",
+    "alert",
+    "actionsheet",
+    "action",
+    "sheet"
+  ],
+  "author": "fostack",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FOStack/ion-viewcontrollers/issues"
+  },
+  "homepage": "https://github.com/FOStack/ion-viewcontrollers#readme",
+  "dependencies": {
+    "@angular/common": "~8.1.2",
+    "@angular/compiler": "~8.1.2",
+    "@angular/core": "~8.1.2",
+    "@angular/forms": "~8.1.2",
+    "@angular/platform-browser": "~8.1.2",
+    "@angular/platform-browser-dynamic": "~8.1.2",
+    "@angular/router": "~8.1.2",
+    "@ionic/angular": "4.11.7",
+    "rxjs": "~6.5.1",
+    "tslib": "^1.9.0",
+    "zone.js": "~0.9.1"
+  },
+  "devDependencies": {
+    "@angular/cli": "~8.1.2",
+    "@angular/compiler": "~8.1.2",
+    "@angular/compiler-cli": "~8.1.2",
+    "typescript": "~3.4.3"
+  }
+}

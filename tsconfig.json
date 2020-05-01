@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+      "outDir": "dist",
+      "sourceMap": true,
+      "declaration": true,
+      "module": "esnext",
+      "moduleResolution": "node",
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+      "importHelpers": true,
+      "target": "es2015",
+      "lib": [
+          "dom", 
+          "es2018"
+      ],
+      "inlineSources": true,
+      "noImplicitAny": false
+    },
+    "exclude": [
+      "node_modules",
+      "dist",
+      "scripts"
+    ],
+    "angularCompilerOptions": {
+      "skipTemplateCodegen": true
+    }
+  }
